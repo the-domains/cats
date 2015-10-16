@@ -1,7 +1,26 @@
-layout_spectrum: 0.3120089
-typography_spectrum: 0.3385631
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.07679911
 color:
-  saturation: 0.3639909
-  lightness: 0.4632269
-  brandStrength: 0.5332065
-  rhythmicContrast: 0.1405589
+  saturation: 0.953276
+  brandStrength: 0.7749732
+  lightness: 0.896348
+  brandColors:
+    - '#666C6F'
+    - '#B3926F'
+    - '#424342'
+    - '#171715'
+    - '#FFFCE8'
+  rhythmicContrast: 0.2873254
+layout_spectrum: 1
+name: Cats
